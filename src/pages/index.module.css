@@ -8,6 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-color-primary) 100%);
 }
 
 @media screen and (max-width: 996px) {
@@ -16,8 +17,166 @@
   }
 }
 
-.buttons {
+.aboutSection {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.aboutContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--ifm-heading-color);
+  position: relative;
+}
+
+.sectionTitle::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
+  margin: 0.75rem auto 0;
+  border-radius: 2px;
+}
+
+.introText {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--ifm-font-color-base);
+  margin-bottom: 1.5rem;
+}
+
+.storyText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--ifm-font-color-secondary);
+  text-align: left;
+}
+
+.skillsSection {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skillCard {
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.skillCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skillIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.skillCategory {
+  font-size: 1.25rem;
+  color: var(--ifm-heading-color);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.skillList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.skillItem {
+  padding: 0.5rem 0;
+  color: var(--ifm-font-color-base);
+  font-size: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 0.5rem;
+}
+
+.checkmark {
+  color: var(--ifm-color-success);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.philosophySection {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--ifm-background-surface-color) 0%, var(--ifm-color-emphasis-100) 100%);
+}
+
+.philosophyContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.philosophyText {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--ifm-font-color-base);
+  font-style: italic;
+}
+
+.philosophyText strong {
+  color: var(--ifm-heading-color);
+}
+
+.philosophyText em {
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .aboutSection,
+  .skillsSection,
+  .philosophySection {
+    padding: 3rem 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+
+  .introText {
+    font-size: 1.1rem;
+  }
+
+  .storyText {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .skillsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .skillCard {
+    padding: 1.5rem;
+  }
+
+  .philosophyText {
+    font-size: 1.1rem;
+  }
 }
