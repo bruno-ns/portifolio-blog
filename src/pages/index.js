@@ -57,12 +57,12 @@ function SkillsSection() {
       category: 'Linguagens',
       icon: 'code',
       items: [
-        { name: 'Java', icon: 'coffee' },
+        { name: 'Java', icon: 'code' },
         { name: 'xHarbour', icon: 'terminal' },
         { name: 'C#', icon: 'code' },
-        { name: 'Go', icon: 'go' },
-        { name: 'PHP', icon: 'php' },
-        { name: 'Elixir', icon: 'elixir' },
+        { name: 'Go', icon: 'code' },
+        { name: 'PHP', icon: 'code' },
+        { name: 'Elixir', icon: 'code' },
         { name: 'SQL/PL-SQL', icon: 'storage' }
       ]
     },
@@ -70,11 +70,11 @@ function SkillsSection() {
       category: 'Frameworks e Tecnologias',
       icon: 'settings',
       items: [
-        { name: 'Spring Boot', icon: 'spring' },
-        { name: 'Spring MVC', icon: 'spring' },
+        { name: 'Spring Boot', icon: 'settings' },
+        { name: 'Spring MVC', icon: 'settings' },
         { name: 'Spring Security', icon: 'security' },
         { name: 'Spring Web Services', icon: 'web' },
-        { name: 'JPA (Hibernate)', icon: 'database' },
+        { name: 'JPA (Hibernate)', icon: 'storage' },
         { name: 'Phoenix', icon: 'local_fire_department' },
         { name: 'DotNet (.Net)', icon: 'developer_board' },
         { name: 'NPM', icon: 'inventory_2' }
@@ -84,10 +84,10 @@ function SkillsSection() {
       category: 'Banco de Dados',
       icon: 'storage',
       items: [
-        { name: 'MySQL', icon: 'database' },
-        { name: 'PostgreSQL', icon: 'database' },
+        { name: 'MySQL', icon: 'storage' },
+        { name: 'PostgreSQL', icon: 'storage' },
         { name: 'Firebird', icon: 'local_fire_department' },
-        { name: 'Oracle', icon: 'database' }
+        { name: 'Oracle', icon: 'storage' }
       ]
     },
     {
@@ -98,7 +98,7 @@ function SkillsSection() {
         { name: 'Integração com sistemas bancários (ATM, Internet Banking)', icon: 'account_balance' },
         { name: 'Integração com motores de crédito', icon: 'credit_card' },
         { name: 'Comunicação entre sistemas distribuídos', icon: 'sync' },
-        { name: 'Integração entre sistemas heterogêneos', icon: 'hub' }
+        { name: 'Integração entre sistemas heterogêneos', icon: 'sync' }
       ]
     },
     {
@@ -118,7 +118,7 @@ function SkillsSection() {
         { name: 'GitHub', icon: 'code' },
         { name: 'Bitbucket', icon: 'cloud' },
         { name: 'CI/CD', icon: 'autorenew' },
-        { name: 'Docker', icon: 'container' },
+        { name: 'Docker', icon: 'developer_board' },
         { name: 'Linux/WSL', icon: 'computer' },
         { name: 'Maven', icon: 'inventory' }
       ]
@@ -152,7 +152,7 @@ function SkillsSection() {
         { name: 'Boa comunicação técnica', icon: 'forum' },
         { name: 'Compartilhamento de conhecimento', icon: 'share' },
         { name: 'Visão analítica de processos', icon: 'insights' },
-        { name: 'Adaptabilidade a diferentes cenários', icon: 'adapt' }
+        { name: 'Adaptabilidade a diferentes cenários', icon: 'tune' }
       ]
     }
   ];
