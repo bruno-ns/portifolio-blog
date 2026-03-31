@@ -39,7 +39,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'pt-BR',
-    locales: ['pt-BR', 'en'],
+    locales: ['pt-BR'],
   },
 
   presets: [
@@ -88,7 +88,7 @@ const config = {
         title: 'Bruno.',
         logo: {
           alt: 'Bruno Logo',
-          src: 'img/logo.svg',
+          src: '/static/img/logo.svg',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
