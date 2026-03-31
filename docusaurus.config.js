@@ -88,7 +88,7 @@ const config = {
         title: 'Bruno.',
         logo: {
           alt: 'Bruno Logo',
-          src: '/static/img/logo.svg',
+          src: 'img/logo.svg',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},

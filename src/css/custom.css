@@ -98,6 +98,17 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Apply JetBrains Mono to navbar - fixed font for all pages */
+.navbar {
+  font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.navbar__title,
+.navbar__link,
+.navbar__brand {
+  font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+}
+
 /* Ensure blog posts keep their original font */
 .blog-wrapper,
 .blog-post-page,
